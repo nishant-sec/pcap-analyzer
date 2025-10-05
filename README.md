@@ -52,4 +52,6 @@ streamlit run app.py
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ## Acknowledgements
-This project uses the IP2Location LITE database for <a href="https://lite.ip2location.com">IP geolocation</a>.
+- This project uses the IP2Location LITE database for <a href="https://lite.ip2location.com">IP geolocation</a>.
+- The interactive maps are powered by [Folium](https://python-visualization.github.io/folium/) and use map tiles from [OpenStreetMap](https://www.openstreetmap.org/copyright) and [Esri](https://www.esri.com/en-us/home).
+- Service name and port number mappings are provided by the [Internet Assigned Numbers Authority (IANA)](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml).
