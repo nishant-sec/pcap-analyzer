@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+scapy
+altair
+IP2Location
+folium
+streamlit-folium
+streamlit-agraph

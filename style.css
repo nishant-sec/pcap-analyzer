@@ -1,0 +1,93 @@
+
+/* General Body Styles */
+body {
+    background-color: #F0F2F6; /* Light grey background */
+}
+
+/* Main App Container */
+.stApp {
+    background-color: #F0F2F6;
+    color: #31333F;
+}
+
+/* Hide Streamlit's default header and footer */
+[data-testid="stHeader"], [data-testid="stFooter"] {
+    display: none;
+}
+
+/* Main Content Area Styling */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+/* Title Styling */
+.main-container h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #09090B;
+    padding-bottom: 0.5rem;
+}
+
+/* Subtitle Styling */
+.main-container .subtitle {
+    font-size: 1.1rem;
+    color: #52525B;
+    max-width: 600px; 
+    margin-bottom: 3rem;
+}
+
+/* The Dashed Box for the Uploader */
+.upload-box {
+    width: 100%;
+    max-width: 650px;
+    background-color: #FFFFFF;
+    border: 2px dashed #D1D5DB;
+    border-radius: 12px;
+    padding: 2.5rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+/* Icon/Image above the uploader */
+.upload-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #3B82F6; 
+}
+
+/* Styling the Streamlit File Uploader Widget */
+[data-testid="stFileUploader"] {
+    padding: 0;
+}
+
+[data-testid="stFileUploader"] section {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+/* Styling the button inside the file uploader */
+[data-testid="stFileUploader"] section button {
+    background-color: #1E293B; 
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+[data-testid="stFileUploader"] section button:hover {
+    background-color: #334155; 
+}
+
+/* Styling the "Drag and drop file" text */
+[data-testid="stFileUploader"] section [data-testid="stMarkdownContainer"] p {
+    font-weight: 500;
+    color: #64748B;
+    margin-top: 1rem;
+}
