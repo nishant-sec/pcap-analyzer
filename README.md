@@ -29,7 +29,7 @@ git clone https://github.com/nishant-sec/pcap-analyzer.git
 cd pcap-analyzer
 ```
 
-2. **Install the dependencies:**
+2. Install the dependencies:
 ```
 pip install -r requirements.txt
 ```
