@@ -1,0 +1,16 @@
+[theme]
+
+# The main background color
+backgroundColor = "#262624"
+
+# The sidebar background color
+secondaryBackgroundColor = "#1F1E1D"
+
+# Color of text on the main page
+textColor = "#FFFFFF"
+
+# Color of text in the sidebar
+# textColor = "#FFFFFF" 
+
+# Color of interactive elements like buttons and sliders
+primaryColor = "#C6613F" 
