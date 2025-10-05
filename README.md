@@ -26,10 +26,14 @@ You can access a live demo of the application here: **[Packet X-Ray on Streamlit
 1. Clone the repository:
 ```
 git clone https://github.com/nishant-sec/pcap-analyzer.git
+```
+
+2. Navigate to the folder
+```
 cd pcap-analyzer
 ```
 
-2. Install the dependencies:
+3. Install the dependencies:
 ```
 pip install -r requirements.txt
 ```
