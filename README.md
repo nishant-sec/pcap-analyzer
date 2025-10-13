@@ -1,4 +1,4 @@
-## Packet X-Ray: A Wireshark PCAP Analyzer
+## Packet X-Ray: A Network PCAP Analyzer
 Packet X-Ray is a powerful and user-friendly PCAP analyzer that allows you to decode and visualize network traffic from `.pcap` and `.pcapng` files that are generated from Wireshark. It's designed to help network administrators, security analysts, and developers troubleshoot network issues, analyze security events, and gain insights into network communications.
 
 ## Live Demo
